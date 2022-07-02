@@ -17,4 +17,5 @@ interface ApiService {
     suspend fun register(
         @Body register: RegisterRequest
     ): AuthResponse
+
 }
